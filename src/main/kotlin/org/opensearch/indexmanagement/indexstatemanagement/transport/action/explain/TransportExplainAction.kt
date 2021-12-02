@@ -108,7 +108,7 @@ class TransportExplainAction @Inject constructor(
                         .defaultOperator(Operator.AND)
                         .escape(true)
                 )
-            //Debug use
+            // Debug use
             log.info("queryBuilderContent $queryBuilder")
 
             var searchSourceBuilder = SearchSourceBuilder()
