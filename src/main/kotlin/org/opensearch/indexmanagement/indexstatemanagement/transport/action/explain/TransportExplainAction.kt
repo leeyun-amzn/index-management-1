@@ -106,7 +106,6 @@ class TransportExplainAction @Inject constructor(
                         .queryStringQuery(params.queryString)
                         .defaultField("managed_index.name")
                         .defaultOperator(Operator.AND)
-                        .escape(true)
                 )
             // Debug use
             log.info("queryBuilderContent $queryBuilder")
